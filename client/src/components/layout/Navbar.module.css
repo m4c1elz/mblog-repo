@@ -1,0 +1,41 @@
+.navbar {
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    align-content: start;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.option i {
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.option h1{
+    font-weight: 400;
+}
+
+.navbar .active {
+    color: #F6B17A
+}

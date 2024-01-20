@@ -1,0 +1,14 @@
+.post {
+    width: 500px;
+    min-height: 100px;
+    padding: 20px;
+    background-color: #2D3250;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.post h4 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    min-width: 350px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #2D3250;
+    border-radius: 10px;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 2rem
+}
+
+
+.form input {
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #424769;
+    color: white;
+    font-size: 20px;
+}
+
+.form input::placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+
